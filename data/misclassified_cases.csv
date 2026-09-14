@@ -1,0 +1,25 @@
+model,error_type,actual_label,predicted_label,confidence,pneumonia_probability,image_path
+VGG16,False Negative,PNEUMONIA,NORMAL,0.9999285978046828,7.140219531720504e-05,data/misclassified_cases/VGG16/false_negative/vgg16_false_negative_01.jpeg
+VGG16,False Negative,PNEUMONIA,NORMAL,0.9627201110124588,0.0372798889875412,data/misclassified_cases/VGG16/false_negative/vgg16_false_negative_02.jpeg
+VGG16,False Negative,PNEUMONIA,NORMAL,0.9565507657825947,0.04344923421740532,data/misclassified_cases/VGG16/false_negative/vgg16_false_negative_03.jpeg
+VGG16,False Negative,PNEUMONIA,NORMAL,0.9355669915676117,0.0644330084323883,data/misclassified_cases/VGG16/false_negative/vgg16_false_negative_04.jpeg
+VGG16,False Positive,NORMAL,PNEUMONIA,0.9998952150344849,0.9998952150344849,data/misclassified_cases/VGG16/false_positive/vgg16_false_positive_01.jpeg
+VGG16,False Positive,NORMAL,PNEUMONIA,0.9989375472068787,0.9989375472068787,data/misclassified_cases/VGG16/false_positive/vgg16_false_positive_02.jpeg
+VGG16,False Positive,NORMAL,PNEUMONIA,0.9985018968582153,0.9985018968582153,data/misclassified_cases/VGG16/false_positive/vgg16_false_positive_03.jpeg
+VGG16,False Positive,NORMAL,PNEUMONIA,0.9984654188156128,0.9984654188156128,data/misclassified_cases/VGG16/false_positive/vgg16_false_positive_04.jpeg
+DenseNet121,False Negative,PNEUMONIA,NORMAL,0.9889581752941012,0.011041824705898762,data/misclassified_cases/DenseNet121/false_negative/densenet121_false_negative_01.jpeg
+DenseNet121,False Negative,PNEUMONIA,NORMAL,0.9107828289270401,0.0892171710729599,data/misclassified_cases/DenseNet121/false_negative/densenet121_false_negative_02.jpeg
+DenseNet121,False Negative,PNEUMONIA,NORMAL,0.8923829346895218,0.10761706531047821,data/misclassified_cases/DenseNet121/false_negative/densenet121_false_negative_03.jpeg
+DenseNet121,False Negative,PNEUMONIA,NORMAL,0.8868398293852806,0.11316017061471939,data/misclassified_cases/DenseNet121/false_negative/densenet121_false_negative_04.jpeg
+DenseNet121,False Positive,NORMAL,PNEUMONIA,0.998762845993042,0.998762845993042,data/misclassified_cases/DenseNet121/false_positive/densenet121_false_positive_01.jpeg
+DenseNet121,False Positive,NORMAL,PNEUMONIA,0.9981594681739807,0.9981594681739807,data/misclassified_cases/DenseNet121/false_positive/densenet121_false_positive_02.jpeg
+DenseNet121,False Positive,NORMAL,PNEUMONIA,0.9930256605148315,0.9930256605148315,data/misclassified_cases/DenseNet121/false_positive/densenet121_false_positive_03.jpeg
+DenseNet121,False Positive,NORMAL,PNEUMONIA,0.9927195310592651,0.9927195310592651,data/misclassified_cases/DenseNet121/false_positive/densenet121_false_positive_04.jpeg
+ResNet50,False Negative,PNEUMONIA,NORMAL,0.9991479279124178,0.0008520720875822008,data/misclassified_cases/ResNet50/false_negative/resnet50_false_negative_01.jpeg
+ResNet50,False Negative,PNEUMONIA,NORMAL,0.9941335464827716,0.005866453517228365,data/misclassified_cases/ResNet50/false_negative/resnet50_false_negative_02.jpeg
+ResNet50,False Negative,PNEUMONIA,NORMAL,0.9888179628178477,0.011182037182152271,data/misclassified_cases/ResNet50/false_negative/resnet50_false_negative_03.jpeg
+ResNet50,False Negative,PNEUMONIA,NORMAL,0.987283531576395,0.012716468423604965,data/misclassified_cases/ResNet50/false_negative/resnet50_false_negative_04.jpeg
+ResNet50,False Positive,NORMAL,PNEUMONIA,0.9984947443008423,0.9984947443008423,data/misclassified_cases/ResNet50/false_positive/resnet50_false_positive_01.jpeg
+ResNet50,False Positive,NORMAL,PNEUMONIA,0.9837244749069214,0.9837244749069214,data/misclassified_cases/ResNet50/false_positive/resnet50_false_positive_02.jpeg
+ResNet50,False Positive,NORMAL,PNEUMONIA,0.9825750589370728,0.9825750589370728,data/misclassified_cases/ResNet50/false_positive/resnet50_false_positive_03.jpeg
+ResNet50,False Positive,NORMAL,PNEUMONIA,0.9818342328071594,0.9818342328071594,data/misclassified_cases/ResNet50/false_positive/resnet50_false_positive_04.jpeg
